@@ -15,7 +15,7 @@ cache:
 branches:
   except:
     - develop
-    - /^feature/\d+\.\d+$/
+    - /^feature/JT-\d+$/
   only:
     - master
 
