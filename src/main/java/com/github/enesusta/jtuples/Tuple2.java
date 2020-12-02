@@ -1,5 +1,8 @@
 package com.github.enesusta.jtuples;
 
+import com.github.enesusta.jtuples.annotations.NotThreadSafe;
+
+@NotThreadSafe
 public final class Tuple2<A, B> {
 
     public final A _1;
